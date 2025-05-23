@@ -1,3 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.egg-info/
+
+# Ignore Virtual Environment
+.venv/
+
+# Ignore Visual Studio Code settings folder
+.vscode/
+
 *.hdb
 *.cdb
 *.tdf
@@ -11,11 +21,22 @@
 *.tdb
 *.flock
 *.dcp
-vivado/hackhaton/hackhaton.cache/*
-vivado/hackhaton/hackhaton.hw/*
-vivado/hackhaton/hackhaton.runs/*
-vivado/hackhaton/hackhaton.gen/*
-vivado/hackhaton/hackhaton.ip_user_files/*
-vivado/hackhaton/hackhaton.sim/*
-vivado/hackhaton/hackhaton.xpr
-vivado/vivado_*
+hackathon/
+vivado/bd/*.sv
+vivado/bd/*.svh
+vivado/bd/*.v
+vivado/bd/*.vh
+*.jou
+*.log
+*.str
+*.gen/
+.Xil
+ipshared/
+.dvt
+**/ip_repo/**/*.v
+**/ip_repo/**/*.sv
+**/ip_repo/**/*.vhd
+**/ip_repo/**/*.vhdl
+**/ip_repo/**/*.xdc
+**/ip_repo/**/*.bmj
+**/ip_repo/**/*.dcp
