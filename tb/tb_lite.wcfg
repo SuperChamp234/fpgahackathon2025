@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_lite_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="task_enabler_pkg" />
+            <top_module name="tasks_parameters" />
+            <top_module name="tb_lite" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="30.767675 us"></ZoomEndTime>
+      <Cursor1Time time="1.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="334"></NameColumnWidth>
+      <ValueColumnWidth column_width="127"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="1" />
+   <wvobject type="group" fp_name="group257">
+      <obj_property name="label">tasks</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="group272">
+         <obj_property name="label">task_1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_1/task_1/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_1/task_1/i_data">
+            <obj_property name="ElementShortName">i_data[15:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data[15:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_1/task_1/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_1/task_1/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_1/task_1/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_1/task_1/o_data">
+            <obj_property name="ElementShortName">o_data[15:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[15:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_1/task_1/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_1/task_1/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group289">
+         <obj_property name="label">task_2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_2/task_2/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_2/task_2/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_2/task_2/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_2/task_2/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_2/task_2/i_data">
+            <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_2/task_2/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_2/task_2/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_2/task_2/o_data">
+            <obj_property name="ElementShortName">o_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[7:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group296">
+         <obj_property name="label">task_3</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_3/task_3/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_3/task_3/i_data">
+            <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_3/task_3/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_3/task_3/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_3/task_3/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_3/task_3/o_data">
+            <obj_property name="ElementShortName">o_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_3/task_3/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_3/task_3/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group311">
+         <obj_property name="label">task_4</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_4/task_4/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_4/task_4/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_4/task_4/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_4/task_4/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_4/task_4/i_data">
+            <obj_property name="ElementShortName">i_data[15:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data[15:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_4/task_4/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_4/task_4/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_4/task_4/o_data">
+            <obj_property name="ElementShortName">o_data[15:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group324">
+         <obj_property name="label">task_5</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_5/task_5/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_5/task_5/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_5/task_5/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_5/task_5/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_5/task_5/i_data">
+            <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_5/task_5/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_5/task_5/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_5/task_5/o_data">
+            <obj_property name="ElementShortName">o_data[15:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group341">
+         <obj_property name="label">task_6</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_6/task_6/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_6/task_6/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_6/task_6/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_6/task_6/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_6/task_6/i_data">
+            <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_6/task_6/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_6/task_6/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_6/task_6/o_data">
+            <obj_property name="ElementShortName">o_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[7:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group358">
+         <obj_property name="label">task_7</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_data_A_0">
+            <obj_property name="ElementShortName">i_data_A_0[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data_A_0[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_data_A_1">
+            <obj_property name="ElementShortName">i_data_A_1[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data_A_1[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_data_A_2">
+            <obj_property name="ElementShortName">i_data_A_2[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data_A_2[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_data_D_0">
+            <obj_property name="ElementShortName">i_data_D_0[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data_D_0[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_data_D_1">
+            <obj_property name="ElementShortName">i_data_D_1[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data_D_1[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_data_D_2">
+            <obj_property name="ElementShortName">i_data_D_2[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data_D_2[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_data_B_0">
+            <obj_property name="ElementShortName">i_data_B_0[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data_B_0[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_data_B_1">
+            <obj_property name="ElementShortName">i_data_B_1[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data_B_1[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/i_data_B_2">
+            <obj_property name="ElementShortName">i_data_B_2[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data_B_2[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/o_data_AB">
+            <obj_property name="ElementShortName">o_data_AB[31:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data_AB[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/o_data_DB">
+            <obj_property name="ElementShortName">o_data_DB[31:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data_DB[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_7/task_7/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group381">
+         <obj_property name="label">task_8</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_8/task_8/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_8/task_8/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_8/task_8/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_8/task_8/i_data">
+            <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_8/task_8/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_8/task_8/o_data">
+            <obj_property name="ElementShortName">o_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_8/task_8/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_8/task_8/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group404">
+         <obj_property name="label">task_9</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_9/task_9/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_9/task_9/ping_ready">
+            <obj_property name="ElementShortName">ping_ready</obj_property>
+            <obj_property name="ObjectShortName">ping_ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_9/task_9/ping">
+            <obj_property name="ElementShortName">ping</obj_property>
+            <obj_property name="ObjectShortName">ping</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_9/task_9/pong">
+            <obj_property name="ElementShortName">pong</obj_property>
+            <obj_property name="ObjectShortName">pong</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_9/task_9/o_data">
+            <obj_property name="ElementShortName">o_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_9/task_9/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_9/task_9/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group421">
+         <obj_property name="label">task_10</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_10/task_10/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_10/task_10/i_data">
+            <obj_property name="ElementShortName">i_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_10/task_10/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_10/task_10/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_10/task_10/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_10/task_10/o_data">
+            <obj_property name="ElementShortName">o_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_10/task_10/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_10/task_10/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group440">
+         <obj_property name="label">task_11</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_11/task_11/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_11/task_11/i_data">
+            <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_11/task_11/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_11/task_11/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_11/task_11/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_11/task_11/o_data">
+            <obj_property name="ElementShortName">o_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_11/task_11/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_11/task_11/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group461">
+         <obj_property name="label">task_12</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_12/task_12/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_12/task_12/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_12/task_12/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_12/task_12/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_12/task_12/i_data">
+            <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_12/task_12/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_12/task_12/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_12/task_12/o_data">
+            <obj_property name="ElementShortName">o_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[7:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group479">
+         <obj_property name="label">task_13</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_13/task_13/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_13/task_13/i_data">
+            <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_13/task_13/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_13/task_13/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_13/task_13/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_13/task_13/o_data">
+            <obj_property name="ElementShortName">o_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_13/task_13/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_13/task_13/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group253">
+         <obj_property name="label">task_14</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_14/task_14/i_rst">
+            <obj_property name="ElementShortName">i_rst</obj_property>
+            <obj_property name="ObjectShortName">i_rst</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_14/task_14/i_valid">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_14/task_14/i_first">
+            <obj_property name="ElementShortName">i_first</obj_property>
+            <obj_property name="ObjectShortName">i_first</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_14/task_14/i_last">
+            <obj_property name="ElementShortName">i_last</obj_property>
+            <obj_property name="ObjectShortName">i_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_14/task_14/i_data">
+            <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_14/task_14/o_valid">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_14/task_14/o_last">
+            <obj_property name="ElementShortName">o_last</obj_property>
+            <obj_property name="ObjectShortName">o_last</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_lite/DUT/control_wrapper0/control_0/task_14/task_14/o_data">
+            <obj_property name="ElementShortName">o_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">o_data[7:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
