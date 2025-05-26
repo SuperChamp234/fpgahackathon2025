@@ -38,14 +38,14 @@ module tb_lite();
     localparam NUM_SAMPLES_IN = 40;
     localparam NUM_SAMPLES_OUT = 52;
   `elsif TASK_6
-    localparam NUM_SAMPLES_IN = 64;
-    localparam NUM_SAMPLES_OUT = 64;
+    localparam NUM_SAMPLES_IN = 514;
+    localparam NUM_SAMPLES_OUT = 274;
   `elsif TASK_7
     localparam NUM_SAMPLES_IN = 72;
     localparam NUM_SAMPLES_OUT = 16;
   `elsif TASK_8
-    localparam NUM_SAMPLES_IN = 6;
-    localparam NUM_SAMPLES_OUT = 5;
+    localparam NUM_SAMPLES_IN = 514;
+    localparam NUM_SAMPLES_OUT = 512;
   `elsif TASK_9
     localparam NUM_SAMPLES_IN  = 3;
     localparam NUM_SAMPLES_OUT = 2;
